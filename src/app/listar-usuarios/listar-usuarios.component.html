@@ -1,2 +1,4 @@
-<input type='text' (change)='this.teste($event.target.value)'>
-<h2>{{ numero }}</h2>
+<input type='text' (change)='this.adicionarNome($event.target.value)'>
+<div *ngFor='let nome of this.listaNomes'>
+    <p *ngIf='nome !== "Daniel"'>{{ nome }}</p>
+</div>

@@ -6,13 +6,11 @@ import { Component, OnInit } from '@angular/core'
   styleUrls: ['./listar-usuarios.component.css']
 })
 export class ListarUsuariosComponent implements OnInit {
-  numero: number
+  listaNomes: String[] = []
   constructor() { }
 
   ngOnInit() {
   }
 
-  teste(numero: number) {
-    this.numero = numero
-  }
+  adicionarNome = (nome: String) => this.listaNomes.push(nome)
 }
