@@ -6,7 +6,8 @@ import { AppRoutingModule } from './app-routing.module'
 import { CadastrarUsuarioComponent } from './cadastrar-usuario/cadastrar-usuario.component'
 import { ListarUsuariosComponent } from './listar-usuarios/listar-usuarios.component'
 import { WarningAlertComponent } from './warning-alert/warning-alert.component'
-import { SuccessAlertComponent } from './success-alert/success-alert.component'
+import { SuccessAlertComponent } from './success-alert/success-alert.component';
+import { DataBindingComponent } from './data-binding/data-binding.component'
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SuccessAlertComponent } from './success-alert/success-alert.component'
     CadastrarUsuarioComponent,
     ListarUsuariosComponent,
     WarningAlertComponent,
-    SuccessAlertComponent
+    SuccessAlertComponent,
+    DataBindingComponent
   ],
   imports: [
     BrowserModule,
