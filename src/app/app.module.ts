@@ -5,12 +5,16 @@ import { AppComponent } from './app.component'
 import { AppRoutingModule } from './app-routing.module'
 import { CadastrarUsuarioComponent } from './cadastrar-usuario/cadastrar-usuario.component'
 import { ListarUsuariosComponent } from './listar-usuarios/listar-usuarios.component'
+import { WarningAlertComponent } from './warning-alert/warning-alert.component'
+import { SuccessAlertComponent } from './success-alert/success-alert.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     CadastrarUsuarioComponent,
-    ListarUsuariosComponent
+    ListarUsuariosComponent,
+    WarningAlertComponent,
+    SuccessAlertComponent
   ],
   imports: [
     BrowserModule,

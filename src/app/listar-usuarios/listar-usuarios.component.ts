@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core'
   templateUrl: './listar-usuarios.component.html',
   styleUrls: ['./listar-usuarios.component.css']
 })
+
 export class ListarUsuariosComponent implements OnInit {
   listaNomes: String[] = []
   constructor() { }

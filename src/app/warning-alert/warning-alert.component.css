@@ -1,0 +1,11 @@
+p {
+    color: red;
+    font-size: 22px;
+}
+
+div {
+    display: table;
+    padding: 0.6vw;
+    background-color: mistyrose;
+    border: 1px solid red;
+}
