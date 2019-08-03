@@ -17,19 +17,19 @@ export class InputColorComponent implements OnInit {
   }
   
   toggle() {
-    this.dates.push(new Date().toISOString())
+    this.dates.push(new Date().toLocaleTimeString())
     this.showPassword = !this.showPassword
   }
 
-  getColor(date: String): Boolean {
-    return this.findIndex(date)
-  }
+  // getColor(date: String): Boolean {
+  //   return this.findIndex(date)
+  // }
 
-  getBackgroundColor(date: String): String {  
-    return this.findIndex(date) ? 'blue' : 'transparent' 
-  }
+  // getBackgroundColor(date: String): String {  
+  //   return this.findIndex(date) ? 'blue' : 'transparent' 
+  // }
   
-  findIndex(date: String): Boolean {
-    return this.dates.findIndex(value => value === date) >= 4
-  }
+  // findIndex(date: String): Boolean {
+  //   return this.dates.findIndex(value => value === date) >= 4
+  // }
 }
