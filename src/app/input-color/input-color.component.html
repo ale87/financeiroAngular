@@ -1,0 +1,12 @@
+<div class='container'>
+    <div class='row'>
+        <div class='col-xs-12'>
+            <p *ngIf='showPassword'>{{ password }}</p>
+            <button (click)='toggle()' class='btn btn-primary'>{{ showPassword ? 'Esconder Detalhes' : 'Mostrar Detalhes' }}</button>
+            <ul *ngFor='let date of dates' class='list-group'>
+                <li [ngStyle]='{backgroundColor: getBackgroundColor(date)}' 
+                    [ngClass]='{color: getColor(date)}' class='list-group-item'>{{ date }}</li>
+            </ul>
+        </div>
+    </div>
+</div>

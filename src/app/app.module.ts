@@ -7,7 +7,8 @@ import { CadastrarUsuarioComponent } from './cadastrar-usuario/cadastrar-usuario
 import { ListarUsuariosComponent } from './listar-usuarios/listar-usuarios.component'
 import { WarningAlertComponent } from './warning-alert/warning-alert.component'
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
-import { DataBindingComponent } from './data-binding/data-binding.component'
+import { DataBindingComponent } from './data-binding/data-binding.component';
+import { InputColorComponent } from './input-color/input-color.component'
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DataBindingComponent } from './data-binding/data-binding.component'
     ListarUsuariosComponent,
     WarningAlertComponent,
     SuccessAlertComponent,
-    DataBindingComponent
+    DataBindingComponent,
+    InputColorComponent
   ],
   imports: [
     BrowserModule,
